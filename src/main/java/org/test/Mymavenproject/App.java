@@ -6,11 +6,19 @@ package org.test.Mymavenproject;
  */
 public class App 
 {
+<<<<<<< HEAD
 	public void mul()
 	{
 		int a=10;
 		int b=20;
 		int c=a*b;
+=======
+	public void div()
+	{
+		int a=10;
+		int b=20;
+		int c=a/b;
+>>>>>>> abab025ad63a0eeb59cb2ffe03d7a3dbe8ea90cd
 		System.out.println(c);
 	}
 	public void sub()
@@ -30,7 +38,11 @@ public class App
         System.out.println("How r u Franklin");
         System.out.println("Hello Hii");
         App a=new App();
+<<<<<<< HEAD
         a.mul();
+=======
+        a.div();
+>>>>>>> abab025ad63a0eeb59cb2ffe03d7a3dbe8ea90cd
         a.sub();
 
        
