@@ -29,7 +29,9 @@ public class App
 
         System.out.println("How r u Franklin");
         System.out.println("Hello Hii");
-        
+        App a=new App();
+        a.add();
+        a.sub();
 
        
     }
