@@ -6,11 +6,11 @@ package org.test.Mymavenproject;
  */
 public class App 
 {
-	public void add()
+	public void div()
 	{
 		int a=10;
 		int b=20;
-		int c=a+b;
+		int c=a/b;
 		System.out.println(c);
 	}
 	public void sub()
@@ -30,7 +30,7 @@ public class App
         System.out.println("How r u Franklin");
         System.out.println("Hello Hii");
         App a=new App();
-        a.add();
+        a.div();
         a.sub();
 
        
